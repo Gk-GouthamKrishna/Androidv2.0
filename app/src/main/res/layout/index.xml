@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Index">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:background="#938C8C"
+            android:onClick="enterLogin"
+            android:text="Login">
+
+
+        </Button>
+
+        <Button
+            android:id="@+id/Url"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:background="#8F8B8B"
+            android:onClick="enterUrl"
+
+            android:text="Url">
+
+        </Button>
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/sp"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:background="#8F8B8B"
+            android:onClick="enterSpinner"
+
+            android:text="Spinner">
+
+        </Button>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="34dp" />
+    </TableLayout>
